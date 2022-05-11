@@ -1,0 +1,43 @@
+ nav{
+        width: 100%;
+       height: 60px;
+       background: rgb(5,6,6);
+       background: linear-gradient(90deg, rgba(5,6,6,1) 42%, rgba(0,155,255,1) 65%);
+ }
+ ul{
+       list-style: none;
+        /*é para tirar as bolhinhas no ul,ou tirar a numeração do ol*/
+       padding-top: 20px;
+       /*para abaixar os itens da lista*/
+ }
+ li{
+       color:#ADD8E6;
+       display: inline;
+       padding-left: 20%;
+      
+        /*cor das letras da "list"*/
+        /*para deixar um ao lado do outro*/
+ }
+ p{
+       padding: 10px;
+       text-align: justify;
+ }
+/*Esses comandos são utilizados para definir o tamanho e a cor da DIV*/
+    .left{
+        width: 40%;
+        height: 450px;
+        /*cor de fundo*/
+        /*backgroud :black;*/
+        /*borda na div*/
+        /*border: 1px black dashed;*/ 
+        float: left;
+        /*Esse comando consiste em dar a margem ao site.*/
+        margin-left: 10%;
+    }
+    .right{
+        width: 40%;
+        height: 450px;
+       /* border: 2px #0f0 dashed;*/
+        float: right;
+        margin-right: 10%;
+    }
