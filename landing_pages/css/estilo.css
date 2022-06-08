@@ -177,6 +177,7 @@ h1 {
 .conteudo-info {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card-info {
@@ -235,7 +236,6 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 20%;
 }
 
 .mapa-responsivo {
@@ -253,7 +253,6 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 20%;
 }
 
 .video-responsivo{
@@ -271,14 +270,19 @@ h1 {
 
 /*inicio footer*/
 .footer {
-   height: 80px;
-  background: rgb(142, 0, 170);
-  background: linear-gradient(90deg, #0000);
-   top: 0px;
+  height: 80px;
+  border-color: #A259F7;
+  background-color: #ffffff;
+  display: flex; 
+  top: 0px;
+  justify-content: center;
 } 
 
 .footer span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
     width: 90%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
