@@ -18,7 +18,7 @@ body {
 
 header {
     z-index: 1;
-    background-color: rgb(142, 0, 170);
+    background-color: rgb(170, 0, 0);
     height: 80px;
     position: fixed;
     width: 100vw;
@@ -56,6 +56,11 @@ header {
     text-shadow: 4px 4px 6px #777575;
 }
 
+.logo-whats {
+  height: 20px;
+  position: fixed;
+}
+
 .botao {
     background-color: rgb(0, 0, 0);
     height: 45px;
@@ -80,7 +85,7 @@ header {
 }
 
 .banner{
-    background-image: url(../img/imagem-fundo-banner.jpg);
+    background-image: url(../img_greys/greys20.png);
     height: 768px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +173,7 @@ h1 {
 }
 
 .info {
-    background-image:  url(../img/imagem-fundo-info.jpg);
+    background-image:  url();
     background-repeat: no-repeat; background-position: center;
     background-size: cover;
     padding: 40px 0;
@@ -203,7 +208,7 @@ h1 {
 
 .endereco {
     padding: 40px 0;
-    background-image: url(../img/imagem-fundo-ranking.jpg);
+    background-image: url(../img_greys/greys_img.webp);
 }
 
 .conteudo-endereco {
@@ -214,7 +219,7 @@ h1 {
 }
 
 .conteudo-endereco h2 {
-    color: #ffc118;
+    color: #000000;
     font-size: 50px;
     font-weight: 500;
 }
