@@ -19,7 +19,7 @@ body {
 header {
     z-index: 1;
     background-color: rgb(170, 0, 0);
-    height: 80px;
+    height: 55px;
     position: fixed;
     width: 100vw;
 }
@@ -56,9 +56,15 @@ header {
     text-shadow: 4px 4px 6px #777575;
 }
 
-.logo-whats {
-  height: 20px;
-  position: fixed;
+.whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 200px;
+    right: 40px;
+}
+
+.whatsapp img {
+    height: 60px;
 }
 
 .botao {
@@ -111,7 +117,7 @@ h1 {
 }
 
 .linha-amarela {
-    border: solid 1px #ffc118;
+    border: solid 1px #750000;
 }
 
 .titulo-senai {
@@ -161,7 +167,7 @@ h1 {
 }
 
 .conteudo-sobre h3 {
-    color: #ffc118;
+    color: #cf1111;
     font-size: 45px;
     font-weight: 500;
 }
@@ -197,10 +203,10 @@ h1 {
 }
 
 .card-info p {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     font-size: 22px;
     font-weight: 600;
-    border: solid 2px #A259F7;
+    border: solid 2px #000000;
     width: 250px;
     padding: 30px 0;
     text-align: center;
@@ -225,10 +231,10 @@ h1 {
 }
 
 .texto-endereco {
-    color: #A259F7;
+    color: #f0f0f0;
     font-family: 'Courier New', Courier, monospace;
     background-color: #000000;
-    border: solid 2px #A259F7;
+    border: solid 2px #000000;
     padding: 55px 55px;
 }
 
@@ -241,6 +247,7 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
+    padding-top: 20%;
 }
 
 .mapa-responsivo {
@@ -258,7 +265,9 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
+    padding-top: 20%;
 }
+
 
 .video-responsivo{
     position: absolute;
