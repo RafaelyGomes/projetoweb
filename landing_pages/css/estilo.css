@@ -92,7 +92,6 @@ header {
 
 .banner{
     background-image: url(../img_greys/greys20.png);
-    height: 768px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -266,6 +265,7 @@ h1 {
     overflow: hidden;
     width: 100%;
     padding-top: 20%;
+    max-height: 200px;
 }
 
 
